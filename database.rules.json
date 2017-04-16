@@ -1,0 +1,16 @@
+{
+  "rules": {
+    "privateKey": {
+      ".read": false,
+      ".write": false
+    },
+    "publicKey": {
+      ".read": true,
+      ".write": false
+    },
+    "messages": {
+      ".read": false,
+      ".write": true
+    }
+  }
+}
